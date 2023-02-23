@@ -50,7 +50,20 @@
                 <td style="width: 201px">&nbsp;</td>
                 <td style="width: 200px">&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" BackColor="#9900CC" BorderColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Insert" />
+                    <asp:Button ID="Button1" runat="server" BackColor="#9900CC" BorderColor="#9900CC" Font-Bold="True" Font-Size="Medium" ForeColor="White" OnClick="Button1_Click" Text="Insert" Width="104px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 201px">&nbsp;</td>
+                <td style="width: 200px">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="width: 201px">&nbsp;</td>
+                <td style="width: 200px">&nbsp;</td>
+                <td>
+                    <asp:GridView ID="GridView1" runat="server" Width="860px">
+                    </asp:GridView>
                 </td>
             </tr>
         </table>
